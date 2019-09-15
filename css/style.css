@@ -1,0 +1,14 @@
+.columna_par{
+	background-color: #aaa;
+}
+.columna_impar {
+	background-color: #bbb;
+}
+
+p, h1,h6 {
+	text-align: center;
+}
+
+.cont_1{
+	background-color:#31e930;
+}

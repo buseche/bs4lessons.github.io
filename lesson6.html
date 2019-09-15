@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Leccion 6 de Bootstrap 4</title>
+	<!--CDN Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!--Bootstrap 4 utiliza todas las herramientas que presenta Flexbox CSS, como es el caso de la alineacion de columnas -->
+
+	<!--Para alinear items dentro de las columnas por encima utilizamos la clase align-items-start-->
+
+	<div class="container">
+		<div class="row align-items-start" style="background-color:#31E930; height: 300px">
+			<div class="col columna_impar">
+				<p>Columna 1</p>
+			</div>
+			<div class="col columna_par">
+				<p>Columna 2</p>
+			</div>
+			<div class="col columna_impar">
+				<p>Columna 3</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Si queremos alinear elementos en el centro, utilizamos la clase align-items-center-->
+
+	<div class="container">
+		<div class="row align-items-center" style="background-color:#C0BD21; height: 300px">
+			<div class="col columna_impar">
+				<p>Columna 4</p>
+			</div>
+			<div class="col columna_par">
+				<p>Columna 5</p>
+			</div>
+			<div class="col columna_impar">
+				<p>Columna 6</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Si queremos alinear abajo (como pie de pagina), utilizamos la clase align-items-end-->
+
+	<div class="container">
+		<div class="row align-items-end" style="background-color:#FFFFFF; height: 300px">
+			<div class="col columna_impar">
+				<p>Soy un pseudo pie de pagina</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Si queremos alinear columnas podremos usar la clase align-self-center, align-self-start, align-self-end-->
+
+	<div class="container">
+		<div class="row" style="background-color: #000000; height: 300px">
+			<div class="col align-self-start columna_impar">
+				<p>Columna 7</p>
+			</div>
+			<div class="col align-self-center columna_par">
+				<p>Columna 8</p>
+			</div>
+			<div class="col align-self-end columna_impar">
+				<p>Columna 9</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row align-items-end" style="background-color: #8DF025">
+			<div class="col">
+				<a href="lesson7.html">Ir a la siguiente leccion</a>
+			</div>
+		</div>
+	</div>
+
+
+	<!--PoperJS JQuery y mas -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

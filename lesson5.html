@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Leccion 5 de Bootstrap 4</title>
+	<!--CDN Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!--Las columnas pueden tener su diseño automatico, y lograr multiples resultados con ellas-->
+
+	<!--Ejemplo de columnas lg del mismo tamaño-->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg columna_impar">
+				<p>Columna 1</p>
+			</div>
+			<div class="col-lg columna_par">
+				<p>Columna 2</p>
+			</div>
+			<div class="col-lg columna_impar">
+				<p>Columna 3</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Ejemplo de columnas col del mismo tamaño que no cambian en diferentes pantallas-->
+	<div class="container">
+		<div class="row">
+			<div class="col columna_impar">
+				<p>Columna 4</p>
+			</div>
+			<div class="col columna_par">
+				<p>Columna 5</p>
+			</div>
+			<div class="col columna_impar">
+				<p>Columna 6</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Podremos definir una o dos columnas de ancho fijo y una sola variable-->
+
+	<!--con col-6 y la del medio variable-->
+	<div class="container">
+		<div class="row">
+			<div class="col-4 columna_impar">
+				<p>Columna 7</p>
+			</div>
+			<div class="col columna_par">
+				<p>Columna 8</p>
+			</div>
+			<div class="col-4 columna_impar">
+				<p>Columna 9</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Con col-lg-4 en la primera y las restantes variables-->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 columna_impar">
+				<p>Columna 10</p>
+			</div>
+			<div class="col-lg columna_par">
+				<p>Columna 11</p>
+			</div>
+			<div class="col-lg columna_impar">
+				<p>Columna 12</p>
+			</div>
+		</div>
+	</div>
+
+	<!--Dependiendo de la cantidad de contenido podremos asignarlas con col-auto col-sm-auto col-lg-auto col-xl-auto-->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4 columna_impar">
+				<p>Columna 13</p>
+			</div>
+			<div class="col-4 columna_par">
+				<p>Columna 14</p>
+			</div>
+			<div class="col-auto columna_impar">
+				<p>Con algo de contenido</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col columna_par">
+				<a href="lesson6.html">Ir a la proxima leccion</a>
+			</div>
+	</div>
+
+
+
+	<!--PoperJS JQuery y mas -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
