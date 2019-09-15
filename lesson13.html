@@ -2,38 +2,45 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Leccion 10 de Bootstrap 4</title>
+	<title>Leccion 13 de Bootstrap 4</title>
 	<!--CDN Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-	<!--Un problema que podremos resolver facilmente es el anidamiento de columnas -->
-
+	<!-- podremos personalizar una tabla, utilizando la clase table-dark -->
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 columna_par">
-				<p>Columna Madre</p>
-			</div>
-			<div class="col-lg-6 columna_impar">
-				<p>Columna 1</p>
-				<div class="row">
-					<div class="col-lg-6 columna_impar">
-						<p>Columna 2</p>
-					</div>
-					<div class="col-lg-6 columna_par">
-						<p>Columna 3</p>
-					</div>
-				</div>
-			</div>
-		</div>
+		<table class="table table-dark">
+			<thead>
+				<th>Columna 1, Titulo 1</th>
+				<th>Columna 2, Titulo 2</th>
+				<th>Columna 3, TItulo 3</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Fila 1, Columna 1</td>
+					<td>Fila 1, Columna 2</td>
+					<td>Fila 1, Columna 3</td>
+				</tr>
+				<tr>
+					<td>Fila 2, Columna 1</td>
+					<td>Fila 2, Columna 2</td>
+					<td>Fila 2, Columna 3</td>
+				</tr>
+				<tr>
+					<td>Fila 3, Columna 1</td>
+					<td>Fila 3, Columna 2</td>
+					<td>Fila 3, Columna 3</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-12 align-items-end">
-				<a href="lesson11.html">Ir a la siguiente leccion</a>
+			<div class="col-12 columna_par">
+				<a href="lesson14.html">Ir a la siguiente leccion</a>
 			</div>
 		</div>
 	</div>
